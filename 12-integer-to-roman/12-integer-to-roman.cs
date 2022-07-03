@@ -23,11 +23,6 @@ public class Solution {
             int number=romanNumerals.ElementAt(index).Value;
             string letter=romanNumerals.ElementAt(index).Key;
             
-            // Console.WriteLine("========");
-            // Console.WriteLine("Number:"+number);
-            // Console.WriteLine("Letter:"+letter);
-            // Console.WriteLine("num:"+num);
-            
             if(romanNumerals.ElementAt(index).Value<=num)
             {
                 roman+=letter;
@@ -39,8 +34,6 @@ public class Solution {
             }
         }
         
-        Console.WriteLine(romanNumerals.ElementAt(0).Key);
-        Console.WriteLine(romanNumerals.ElementAt(0).Value);
         return roman;
     }
 }
