@@ -23,7 +23,7 @@ public class Solution {
             int number=romanNumerals.ElementAt(index).Value;
             string letter=romanNumerals.ElementAt(index).Key;
             
-            if(romanNumerals.ElementAt(index).Value<=num)
+            if(number<=num)
             {
                 roman+=letter;
                 num-=number;
